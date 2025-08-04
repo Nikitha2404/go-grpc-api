@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	const addr = "localhost:50051"
+	const addr = ":50051"
 
 	listener, err := net.Listen("tcp", addr)
 	if err != nil {
